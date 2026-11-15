@@ -159,7 +159,7 @@ local_fin_ai/
 
 **Windows (PowerShell):**
 ```powershell
-git clone [https://github.com/](https://github.com/)<your-username>/local_fin_ai.git
+git clone https://github.com/ayushjain733/LocalFinAI.git
 cd local_fin_ai
 python -m venv myvenv
 .\myvenv\Scripts\Activate.ps1
@@ -167,7 +167,7 @@ python -m venv myvenv
 
 **Linux / macOS:**
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/local_fin_ai.git
+git clone https://github.com/ayushjain733/LocalFinAI.git
 cd local_fin_ai
 python3 -m venv .venv
 source .venv/bin/activate
