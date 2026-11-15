@@ -1,0 +1,67 @@
+# ============================================================================
+# LocalFinAI — Privacy, Database, Backups & Model Weights (NEVER COMMIT)
+# ============================================================================
+# Local SQLite Database & WAL Journals
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Downloaded Hugging Face GGUF LLMs, Embeddings & Trained PPO Checkpoints
+models/
+*.gguf
+*.onnx
+*.bin
+*.safetensors
+
+# Exported User Backups, Recovery Kits & Ledger Exports
+LocalFinAI_Backup_*.zip
+LocalFinAI_Recovery_Kit_*.txt
+localfinai_ledger_*.csv
+
+# Personal Bank Statements (if placed in project directory)
+statements/
+*.pdf
+
+# ============================================================================
+# Python Virtual Environments & Bytecode
+# ============================================================================
+.venv/
+venv/
+myvenv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging & Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================================
+# Testing, Type Checking & Streamlit
+# ============================================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml
+
+# ============================================================================
+# IDE & OS Metadata
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini

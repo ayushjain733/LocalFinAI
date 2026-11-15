@@ -1,0 +1,34 @@
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+
+# Core UI & Data Manipulation
+streamlit>=1.38.0
+pandas>=2.2.0
+numpy>=1.26.0
+psutil>=6.0.0
+pydantic>=2.8.0
+
+# Database & ORM
+sqlmodel>=0.0.21
+sqlalchemy>=2.0.30
+
+# Local Hugging Face & In-Process LLM / Embeddings
+huggingface-hub>=0.24.0
+llama-cpp-python>=0.2.90
+sentence-transformers>=3.0.1
+torch>=2.3.0
+
+# Document Extraction & Lightweight CPU OCR (Python 3.13 compatible)
+pdfplumber>=0.11.4
+pypdfium2>=4.30.0
+rapidocr>=3.0.0
+onnxruntime>=1.19.0
+Pillow>=10.4.0
+
+# Reinforcement Learning
+gymnasium>=0.29.1
+stable-baselines3>=2.3.2
+
+# Model Context Protocol (MCP) & Public Market Feeds
+mcp>=1.2.0
+yfinance>=0.2.43
+feedparser>=6.0.11
